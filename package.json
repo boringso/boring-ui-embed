@@ -1,6 +1,6 @@
 {
   "name": "@boring-ui/embed",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "description": "",
   "author": {
     "name": "streamich",
@@ -19,7 +19,6 @@
     "esm/"
   ],
   "scripts": {
-    "postinstall": "yarn build",
     "start": "yarn storybook",
     "prettier": "prettier --ignore-path .gitignore --write 'src/**/*.{ts,tsx,js,jsx}'",
     "prettier:diff": "prettier -l 'src/**/*.{ts,tsx,js,jsx}'",
